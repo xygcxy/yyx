@@ -53,7 +53,9 @@
             <img id="img9" src="./Love_files/bg9.jpg" width="30%" height="60%" style="opacity: 0">
             <img id="img10" src="./Love_files/bg10.jpg" width="30%" height="60%" style="opacity: 0">
             </div>
-            <div class="vintage" style="display: none;">生日快乐</h1>
+            <div class="vintage">
+            <div class="vintage1" style="display: none;">生日快乐</div>
+            <div class="vintage2" style="display: none;">萬事勝意</div></div>
         </div>
     
     <script>
@@ -67,8 +69,9 @@
                 music.play(); 
             } 
         });
-        setTimeout(function(){$("#wall").css('opacity', '0')},90000);
-        setTimeout(function(){$(".vintage").fadeIn(3000)},91000);
+        setTimeout(function(){$("#wall").fadeOut(3000)},90000);
+        setTimeout(function(){$(".vintage1").fadeIn(3000)},91000);
+        setTimeout(function(){$(".vintage2").fadeIn(3000)},92000);
         var canvas = $('#canvas');
 
         if (!canvas[0].getContext) {

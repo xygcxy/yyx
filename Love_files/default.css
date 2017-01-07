@@ -28,10 +28,27 @@ a {color:#000;font-size:14px;}
 	width:1000px;height:700px;position: relative;
 }
 .vintage {
-	margin-top: -500px;
+	width: 500px;
+	margin: 0 auto;
+}
+.vintage1 {
+	float: left;
 color: transparent;
 font-size: 150px;
+width: 150px;
 text-align: center;
+word-wrap: break-word; 
+background-color : black;
+text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+-webkit-background-clip : text;
+}
+.vintage2 {
+	float: right;
+color: transparent;
+font-size: 150px;
+width: 150px;
+text-align: center;
+word-wrap: break-word; 
 background-color : black;
 text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
 -webkit-background-clip : text;
