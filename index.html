@@ -17,6 +17,11 @@
 
     </head>
     <body>
+    <div id="cover" style="display: none;">
+        <div id="notice">
+            点右上角用safari打开哦
+        </div>
+    </div>
         <div id="main">
             <div id="error">亲，您使用的浏览器无法支持即将显示的内容，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器哟~</div>
             <div id="wrap">
@@ -63,6 +68,11 @@
 
     <script>
     (function(){
+        
+        var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            $("#cover").css('display', 'block');
+        }
         $('#canvas').on('click',function(){
             var music = document.getElementById("audioid");
             if (music.paused) { 
