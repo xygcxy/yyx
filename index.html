@@ -39,7 +39,7 @@
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
-            <audio src="./Love_files/bg.mp3" autoplay="autoplay"></audio>
+            <audio id="audioid" src="./Love_files/bg.mp3"></audio>
         </div>
     
     <script>
@@ -47,6 +47,10 @@
 
     <script>
     (function(){
+        $('#canvas').on('click',function(){
+            var music = document.getElementById("audioid");
+            music.play();
+        });
         var canvas = $('#canvas');
 
         if (!canvas[0].getContext) {
