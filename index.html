@@ -9,6 +9,7 @@
         <script type="text/javascript" src="./Love_files/jscex-parser.js"></script>
         <script type="text/javascript" src="./Love_files/jscex-jit.js"></script>
         <script type="text/javascript" src="./Love_files/jscex-builderbase.min.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
         <script type="text/javascript" src="./Love_files/jscex-async.min.js"></script>
         <script type="text/javascript" src="./Love_files/jscex-async-powerpack.min.js"></script>
         <script type="text/javascript" src="./Love_files/functions.js" charset="utf-8"></script>
@@ -49,7 +50,14 @@
     (function(){
         $('#canvas').on('click',function(){
             var music = document.getElementById("audioid");
-            music.play();
+            if (music.paused) { 
+                music.play(); 
+            } 
+        });
+        wx.ready(function () {
+            var media = document.getElementById("audioid");
+            media.src = "./Love_files/bg.mp3"
+            media.play();
         });
         var canvas = $('#canvas');
 
