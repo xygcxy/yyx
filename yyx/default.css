@@ -1,0 +1,260 @@
+body{margin:0;padding:0;background:#f0fbf5;font-size:14px;font-family:'微软雅黑','宋体',sans-serif;color:#231F20;overflow:auto;/*background: url(bg.jpg) no-repeat left center;*/}
+a {color:#000;font-size:14px;}
+#main{width:100%;}
+#wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
+#text{width:400px;height:425px;left:60px;top:80px;position:absolute;}
+#code{display:none;font-size:16px;}
+#clock-box {position:absolute;left:60px;top:520px;font-size:28px;display:none;}
+#clock-box a {font-size:28px;text-decoration:none;}
+#clock{margin-left:48px;}
+#clock .digit {font-size:64px;}
+#canvas{margin:0 auto;width:1100px;height:100%;}
+#error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
+.hand{cursor:pointer;}
+.say{margin-left:5px;line-height:2;font-size: 21px;}
+.space{margin-right:270px;}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    40% {opacity: 0;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#wall{
+	width:1000px;height:700px;position: relative;
+}
+.vintage {
+	width: 1000px;
+	margin: -700px auto;
+}
+#cover{
+	margin: 0;
+	clear: both;
+	position: absolute;
+	opacity: 0.3;
+	z-index: 100;
+	width: 100%;
+	height: 2000px;
+	background-color:#000000; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50);
+}
+#notice {
+	color: #fff;
+	font-size: 80px;
+	float: right;
+}
+.vintage1 {
+color: transparent;
+font-size: 150px;
+text-align: center;
+background-color : black;
+text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+-webkit-background-clip : text;
+}
+.font1 {
+	width: 150px;
+	float: left;
+	color: transparent;
+	margin-left: 100px;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-10deg);
+}
+.font2 {
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(5deg);
+}
+.font3 {
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-5deg);
+}
+.font4 {
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(15deg);
+}
+.font5 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(10deg);
+}
+.font6 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-10deg);
+}
+.font7 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(5deg);
+}
+.font8 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-10deg);
+}
+
+.vintage2 {
+color: transparent;
+font-size: 150px;
+text-align: center;
+background-color : black;
+text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+-webkit-background-clip : text;
+}
+img{position:absolute;padding:10px 10px 20px;background:#fff;border:1px solid #ddd;-webkit-transition:0.2s;}
+#img1
+{	opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:40s;  /**延迟动画**/
+     animation-delay:40s;
+left:30px;top:0;-webkit-transform:rotateZ(20deg);}
+#img2
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:45s;  /**延迟动画**/
+     animation-delay:45s;
+left:290px;top:0;-webkit-transform:rotateZ(5deg);}
+#img3
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:50s;  /**延迟动画**/
+     animation-delay:50s;
+left:550px;top:0;-webkit-transform:rotateZ(-10deg);}
+#img4
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:55s;  /**延迟动画**/
+     animation-delay:55s;
+left:800px;top:0;-webkit-transform:rotateZ(25deg);}
+#img5
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:60s;  /**延迟动画**/
+     animation-delay:60s;
+left:150px;top:280px;-webkit-transform:rotateZ(-2deg);}
+#img6
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:65s;  /**延迟动画**/
+     animation-delay:65s;
+left:400px;top:280px;-webkit-transform:rotateZ(15deg);}
+#img7
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:70s;  /**延迟动画**/
+     animation-delay:70s;
+left:700px;top:330px;-webkit-transform:rotateZ(-15deg);}
+#img8
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:75s;  /**延迟动画**/
+     animation-delay:75s;
+left:100px;top:530px;-webkit-transform:rotateZ(-5deg);}
+#img9
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:80s;  /**延迟动画**/
+     animation-delay:80s;
+left:450px;top:600px;-webkit-transform:rotateZ(5deg);}
+#img10
+{opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;  
+    animation-duration: 5s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:85s;  /**延迟动画**/
+     animation-delay:85s;
+left:700px;top:530px;-webkit-transform:rotateZ(-10deg);}
