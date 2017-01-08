@@ -59,8 +59,8 @@
         var points = [], x, y, t;
         for (var i = 10; i < 30; i += 0.2) {
             t = i / Math.PI;
-            x = 16 * Math.pow(Math.sin(t), 3);
-            y = 13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t);
+            x = 12 * Math.pow(Math.sin(t), 3);
+            y = 13 * Math.cos(t) - 0 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(0 * t);
             points.push(new Point(x, y));
         }
         this.points = points;
@@ -163,13 +163,13 @@
             ctx.scale(scale, scale);
             ctx.moveTo(0, 0);
     	    ctx.lineTo(15, 15);
-    	    ctx.lineTo(60, 15);
+    	    ctx.lineTo(75, 15);
             ctx.stroke();
 
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
-            ctx.font = "12px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("click here", 23, 16);
+            ctx.font = "23px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
+            ctx.fillText("点这里", 23, 16);
             ctx.restore();
         },
         clear: function() {
@@ -346,8 +346,8 @@
         createBloom: function(width, height, radius, figure, color, alpha, angle, scale, place, speed) {
             var x, y;
             while (true) {
-                x = random(20, width - 20);
-                y = random(20, height - 20);
+                x = random(80, width - 150);
+                y = random(80, height - 150);
                 if (inheart(x - width / 2, height - (height - 40) / 2 - y, radius)) {
                     return new Bloom(this, new Point(x, y), figure, color, alpha, angle, scale, place, speed);
                 }
