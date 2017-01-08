@@ -28,7 +28,7 @@ a {color:#000;font-size:14px;}
 	width:1000px;height:700px;position: relative;
 }
 .vintage {
-	width: 500px;
+	width: 1000px;
 	margin: -700px auto;
 }
 #cover{
@@ -47,23 +47,100 @@ a {color:#000;font-size:14px;}
 	float: right;
 }
 .vintage1 {
-	float: left;
 color: transparent;
 font-size: 150px;
-width: 150px;
 text-align: center;
-word-wrap: break-word; 
 background-color : black;
 text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
 -webkit-background-clip : text;
 }
+.font1 {
+	width: 150px;
+	float: left;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-10deg);
+}
+.font2 {
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(5deg);
+}
+.font3 {
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-5deg);
+}
+.font4 {
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(15deg);
+}
+.font5 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(10deg);
+}
+.font6 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-10deg);
+}
+.font7 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(5deg);
+}
+.font8 {
+	width: 150px;
+	float: left;
+	margin-top:0;
+	margin-left: 100px;
+	color: transparent;
+	-webkit-background-clip : text;
+	background-color : black;
+	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	left:200px;top:0;-webkit-transform:rotateZ(-10deg);
+}
+
 .vintage2 {
-	float: right;
 color: transparent;
 font-size: 150px;
-width: 150px;
 text-align: center;
-word-wrap: break-word; 
 background-color : black;
 text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
 -webkit-background-clip : text;
