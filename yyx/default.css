@@ -152,8 +152,8 @@ img{position:absolute;padding:10px 10px 20px;background:#fff;border:1px solid #d
 {	opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
      -webkit-animation-delay:40s;  /**延迟动画**/
@@ -163,98 +163,98 @@ left:30px;top:0;-webkit-transform:rotateZ(20deg);}
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:45s;  /**延迟动画**/
-     animation-delay:45s;
+     -webkit-animation-delay:43s;  /**延迟动画**/
+     animation-delay:43s;
 left:290px;top:0;-webkit-transform:rotateZ(5deg);}
 #img3
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:50s;  /**延迟动画**/
-     animation-delay:50s;
+     -webkit-animation-delay:46s;  /**延迟动画**/
+     animation-delay:46s;
 left:550px;top:0;-webkit-transform:rotateZ(-10deg);}
 #img4
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:55s;  /**延迟动画**/
-     animation-delay:55s;
+     -webkit-animation-delay:49s;  /**延迟动画**/
+     animation-delay:49s;
 left:800px;top:0;-webkit-transform:rotateZ(25deg);}
 #img5
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:60s;  /**延迟动画**/
-     animation-delay:60s;
+     -webkit-animation-delay:51s;  /**延迟动画**/
+     animation-delay:51s;
 left:150px;top:280px;-webkit-transform:rotateZ(-2deg);}
 #img6
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:65s;  /**延迟动画**/
-     animation-delay:65s;
+     -webkit-animation-delay:54s;  /**延迟动画**/
+     animation-delay:54s;
 left:400px;top:280px;-webkit-transform:rotateZ(15deg);}
 #img7
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:70s;  /**延迟动画**/
-     animation-delay:70s;
-left:700px;top:330px;-webkit-transform:rotateZ(-15deg);}
+     -webkit-animation-delay:57s;  /**延迟动画**/
+     animation-delay:57s;
+left:760px;top:330px;-webkit-transform:rotateZ(-15deg);}
 #img8
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:75s;  /**延迟动画**/
-     animation-delay:75s;
+     -webkit-animation-delay:60s;  /**延迟动画**/
+     animation-delay:60s;
 left:100px;top:530px;-webkit-transform:rotateZ(-5deg);}
 #img9
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:80s;  /**延迟动画**/
-     animation-delay:80s;
+     -webkit-animation-delay:63s;  /**延迟动画**/
+     animation-delay:63s;
 left:450px;top:600px;-webkit-transform:rotateZ(5deg);}
 #img10
 {opacity:0;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 5s;  
-    animation-duration: 5s;  
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;  
     -webkit-animation-fill-mode: forwards ;  
     animation-fill-mode: forwards ;
-     -webkit-animation-delay:85s;  /**延迟动画**/
-     animation-delay:85s;
+     -webkit-animation-delay:66s;  /**延迟动画**/
+     animation-delay:66s;
 left:700px;top:530px;-webkit-transform:rotateZ(-10deg);}
